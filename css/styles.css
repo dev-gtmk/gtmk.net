@@ -1275,10 +1275,52 @@ a:hover {
   }
 }
 
-/* Footer legal link */
+/* Legal: 항 / 호 numbered clauses */
+.legal-clause {
+  list-style: decimal;
+  margin: 0 0 1rem;
+  padding-left: 1.4rem;
+}
+
+.legal-clause > li {
+  font-size: 0.92rem;
+  line-height: 1.85;
+  color: var(--color-text);
+  margin: 0.55rem 0;
+}
+
+.legal-clause > li::marker {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.legal-subclause {
+  list-style: decimal;
+  margin: 0.5rem 0 0.75rem;
+  padding-left: 1.3rem;
+}
+
+.legal-subclause > li {
+  font-size: 0.88rem;
+  line-height: 1.8;
+  color: var(--color-text-muted);
+  margin: 0.3rem 0;
+}
+
+.legal-subclause > li::marker {
+  color: var(--color-text-muted);
+}
+
+/* Footer legal links */
 .footer-links {
   margin: 0;
   font-size: 0.82rem;
+}
+
+.footer-sep {
+  color: var(--color-text-muted);
+  opacity: 0.5;
+  margin: 0 0.5rem;
 }
 
 .footer-links a {
