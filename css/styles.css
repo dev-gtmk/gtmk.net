@@ -1311,6 +1311,27 @@ a:hover {
   color: var(--color-text-muted);
 }
 
+/* Legal: 구분/내용 2열 표 */
+.legal-table--kv {
+  min-width: 0;
+}
+
+.legal-table--kv tbody th {
+  width: 9.5rem;
+}
+
+/* Legal: 표시 문구 예시 */
+.legal-quote {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.85rem 1.1rem;
+  margin: 0 0 1rem;
+}
+
 /* Footer legal links */
 .footer-links {
   margin: 0;
